@@ -1,0 +1,58 @@
+:root {
+  --f-roboto: 'Roboto', sans-serif;
+  --f-raleway: 'Raleway', sans-serif;
+  --f-size16: 16px;
+  --black: #000000;
+  --dark: #212121;
+  --dark-grey: #2f303a;
+  --grey: #757575;
+  --blue: #2196f3;
+  --white: #fff;
+}
+body {
+  font-family: var(--f-roboto);
+  font-size: var(--f-size16);
+  line-height: 1.2;
+  color: var(--dark);
+  background-color: var(--white);
+}
+.header-logo {
+  font-family: var(--f-raleway);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--black);
+  text-decoration: none;
+}
+.header-logo span {
+  color: var(--blue);
+}
+/* .header ul {
+    list-style: none;
+} */
+.header-menu,
+.header-contacts {
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-menu-link {
+  color: var(--dark);
+  text-decoration: none;
+}
+/* .header-contacts {
+  color: var(--grey);
+  text-decoration: none;
+} */
+.header-contacts-link {
+  color: var(--grey);
+  text-decoration: none;
+}
+.header-menu-link:hover,
+.header-contacts-link:hover,
+.header-menu-link:focus,
+.header-contacts-link:focus {
+  color: var(--blue);
+}
