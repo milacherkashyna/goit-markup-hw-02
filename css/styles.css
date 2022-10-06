@@ -8,6 +8,7 @@
   --grey: #757575;
   --lightgrey: #f5f4fa;
   --blue: #2196f3;
+  --white-grey: #f5f5f5;
   --white: #fff;
   --opasity: rgba(255, 255, 255, 0.6);
 }
@@ -16,6 +17,9 @@ body {
   font-size: var(--f-size16);
   line-height: 1.2;
   color: var(--dark);
+  background-color: var(--white-grey);
+}
+.header {
   background-color: var(--white);
 }
 .header-logo {
@@ -45,10 +49,6 @@ body {
   color: var(--dark);
   text-decoration: none;
 }
-/* .header-contacts {
-  color: var(--grey);
-  text-decoration: none;
-} */
 .header-contacts-link {
   color: var(--grey);
   text-decoration: none;
@@ -107,7 +107,6 @@ body {
   list-style: none;
 }
 .advantages-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -119,7 +118,7 @@ body {
   line-height: 3;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--dark);
+  /* color: var(--dark); */
 }
 .section-item {
   list-style: none;
@@ -144,8 +143,6 @@ body {
   /* color: var(--dark) */
 }
 .team-member-title {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.03em;
@@ -188,4 +185,43 @@ body {
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {
   color: var(--blue);
+}
+/* Index.html end */
+/* Portfolio.html */
+.btn-list {
+  list-style: none;
+}
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark);
+  background-color: var(--white);
+  border: none;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--white);
+  background-color: var(--blue);
+}
+.card {
+  background-color: var(--white);
+  list-style: none;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  /* color: var(--dark); */
+}
+.card-tag {
+  line-height: 1.88px;
+  letter-spacing: 0.03em;
+  color: var(--grey);
 }
